@@ -1,0 +1,6 @@
+   INTERFACE       MAC ADDRESS     LINK         IP ADDRESS     MTU  WIRE SPD          RX           TX 
+          lo              none  unknown        127.0.0.1/8   65536         -   103990 B     103990 B  
+       p10p1 f4:ce:46:2e:5b:a6       up     192.168.5.5/24    1500  1000Mb/s        6 GiB        9 GiB
+        p7p1 68:05:ca:03:6d:19       up               none    1500  1000Mb/s        4 MiB   442922 B  
+      virbr0 32:ac:6b:b6:cb:9b     down   192.168.122.1/24    1500         -        0 B          0 B  
+    macvtap0 52:54:00:2d:b2:95  unknown               none    1500  1000Mb/s        7 MiB   406632 B  
