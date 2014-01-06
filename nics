@@ -251,8 +251,8 @@ do
 	fi
 
 	# Capture the number of bytes and packets received on this interface
-	let RX_BYTES=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $24}')
-	let RX_PACKETS=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $25}')
+	let RX_BYTES=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $26}')
+	let RX_PACKETS=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $27}')
 
 	# If these weren't set correctly, set them to numeric 0
 	RX_BYTES=${RX_BYTES:-"0"}
@@ -282,8 +282,8 @@ do
 	fi
 
 	# Capture the number of bytes and packets transmitted on this interface
-	let TX_BYTES=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $39}')
-	let TX_PACKETS=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $40}')
+	let TX_BYTES=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $41}')
+	let TX_PACKETS=$(echo $IP_LINK_SHOW_OUTPUT | awk '{FS=" "; print $42}')
 
 	# If these weren't set correctly, set them to numeric 0
 	TX_BYTES=${TX_BYTES:-"0"}
